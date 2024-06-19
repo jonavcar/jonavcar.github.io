@@ -3,58 +3,48 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Página Personal - [Tu Nombre]</title>
+    <title>Blog Personal - [Tu Nombre]</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
         <div class="container">
             <h1>[Tu Nombre]</h1>
-            <p>Ingeniero de Sistemas | Programador en Java Spring Boot, Microservicios, Azure, Jenkins</p>
+            <nav>
+                <ul>
+                    <li><a href="#resumen">Resumen</a></li>
+                    <li><a href="#proyectos">Proyectos</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+            </nav>
         </div>
     </header>
 
-    <nav>
+    <section id="resumen" class="section">
         <div class="container">
-            <ul>
-                <li><a href="#sobre-mi">Sobre mí</a></li>
-                <li><a href="#proyectos">Proyectos</a></li>
-                <li><a href="#blog">Blog</a></li>
-                <li><a href="#contacto">Contacto</a></li>
-            </ul>
-        </div>
-    </nav>
-
-    <div class="container">
-        <section id="sobre-mi">
-            <h2>Sobre mí</h2>
-            <div class="clearfix">
+            <div class="resumen-content">
                 <img src="img/tu-foto.jpg" alt="Foto de [Tu Nombre]" class="profile-pic">
-                <p>Hola, soy [Tu Nombre], un apasionado ingeniero de sistemas con experiencia en desarrollo de software utilizando tecnologías como Java Spring Boot, microservicios, Azure y Jenkins. Actualmente, estoy trabajando en mi tesis de pregrado sobre la detección de anomalías en transacciones financieras utilizando algoritmos de machine learning y datos simulados. Me encanta aprender y aplicar nuevas tecnologías para resolver problemas complejos y mejorar la eficiencia de los sistemas.</p>
+                <div class="descripcion">
+                    <h2>Sobre mí</h2>
+                    <p>Hola, soy [Tu Nombre], un apasionado ingeniero de sistemas con experiencia en desarrollo de software utilizando tecnologías como Java Spring Boot, microservicios, Azure y Jenkins...</p>
+                </div>
             </div>
-        </section>
+        </div>
+    </section>
 
-        <section id="proyectos">
+    <section id="proyectos" class="section">
+        <div class="container">
             <h2>Proyectos</h2>
-            <p>En esta sección, puedes destacar algunos de tus proyectos más importantes. Aquí hay algunos ejemplos:</p>
             <ul>
                 <li><strong>Proyecto 1:</strong> Descripción breve del proyecto 1.</li>
                 <li><strong>Proyecto 2:</strong> Descripción breve del proyecto 2.</li>
                 <li><strong>Proyecto 3:</strong> Descripción breve del proyecto 3.</li>
             </ul>
-        </section>
+        </div>
+    </section>
 
-        <section id="blog">
-            <h2>Blog</h2>
-            <p>Comparte tus pensamientos y conocimientos en esta sección. Aquí hay algunas entradas de ejemplo:</p>
-            <ul>
-                <li><a href="#">Entrada de Blog 1</a> - Descripción breve de la entrada de blog 1.</li>
-                <li><a href="#">Entrada de Blog 2</a> - Descripción breve de la entrada de blog 2.</li>
-                <li><a href="#">Entrada de Blog 3</a> - Descripción breve de la entrada de blog 3.</li>
-            </ul>
-        </section>
-
-        <section id="contacto">
+    <section id="contacto" class="section">
+        <div class="container">
             <h2>Contacto</h2>
             <p>Puedes contactarme a través de las siguientes plataformas:</p>
             <ul>
@@ -62,8 +52,8 @@
                 <li><a href="https://github.com/tu-perfil" target="_blank">GitHub</a></li>
                 <li><a href="mailto:tu-email@example.com">Correo Electrónico</a></li>
             </ul>
-        </section>
-    </div>
+        </div>
+    </section>
 
     <footer>
         <div class="container">
