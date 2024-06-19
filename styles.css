@@ -10,10 +10,18 @@ header {
     color: white;
     text-align: center;
     padding: 1em 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
 }
 
 nav {
     background-color: #333;
+    position: fixed;
+    width: 100%;
+    top: 60px; /* Ajustar según la altura del header */
+    z-index: 999;
 }
 
 nav ul {
@@ -44,6 +52,7 @@ nav ul li a:hover {
     width: 80%;
     margin: auto;
     overflow: hidden;
+    padding-top: 120px; /* Ajustar según la altura del header y nav */
 }
 
 section {
